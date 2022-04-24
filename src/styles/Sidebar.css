@@ -1,0 +1,47 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    position: fixed;
+    background-color: yellow;
+    height: 670px;
+    width: 49px;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar-profile {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .sidebar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-middle-navigation > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0px;
+    cursor: pointer;
+  }
+  .sidebar-plus-icon {
+      margin-bottom: 10px;
+  }
+  /* .fi-rr-add {
+    background-color: rgb(16, 26, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  } */

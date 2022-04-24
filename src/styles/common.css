@@ -1,0 +1,15 @@
+.common-width{
+    margin:0 100px;
+}
+.light-mode{
+    background-color: yellow;
+
+}
+.dark-mode{
+    background-color: #1f2327;
+    color: white;
+}
+.container-dark-mode{
+    background-color: #1f2327;
+    color: white;
+}
